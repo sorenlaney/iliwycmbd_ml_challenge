@@ -36,6 +36,7 @@ GBTClassifier
 
 ### Model performance
 On testing data (CA, TX, NY) 75% accuracy
+
 On FL and MA holdout data 71% accuracy
 
 ### Recommendations
