@@ -173,15 +173,19 @@ RandomForestClassifier
 
 ### Model performance
 
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/roc.JPG)
+
 #### Test Data
-Accuracy(%): 0.7946615299944965
+Accuracy(%): 0.7946615299944965 </br>
 Test Error:  0.205338
 
 #### Holdout states (FL, MA)
-Accuracy(%): 0.7590082054941134
+Accuracy(%): 0.7590082054941134 </br>
 Test Error:  0.240992
 
-![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/roc.JPG)
+Accuracy(%): 0.9706257982120051 </br>
+Test Error:  0.0293742
+
 
 ### Feature Importance
 ![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/fi.JPG)
