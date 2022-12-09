@@ -181,8 +181,11 @@ Test Error:  0.205338
 Accuracy(%): 0.7590082054941134
 Test Error:  0.240992
 
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/roc.JPG)
+
 ### Feature Importance
-[](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/fi.JPG)
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/fi.JPG)
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/fi2.JPG)
 
 ### Recommendations
 
