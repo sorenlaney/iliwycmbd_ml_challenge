@@ -97,7 +97,7 @@ We can see the top ten features of the ranked from top to bottom in the graph be
 |8	|land_m	                               |0.007447             |
 
 
-
+![feature_importance](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/cb720fac2b88ea34be2f685dc04034b81dc0e938/Feature_Importance.png)
 
 
 ### Recommendations
