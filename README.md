@@ -150,8 +150,6 @@ Here are the tracts in Colorado I recommend:
 
 ### Features
 
-['population_per_gas_station', 'weighted_median_income', 'car_truck_or_van_alone', 'avg_education_yrs', 'gas_station_percent_change', 'Number_of_Schools', 'count_fam_homes', 'land_m', 'people_travel_to_work', 'total_tract_population', 'median_gas_dwell_time', 'total_visit_counts', "hotel_count", "total_starbucks_by_tract"]
-
 |idx|	Feature Name	                       |Description                                                        | 
 |---|--------------------------------------|-------------------------------------------------------------------|
 |1  |weighted_median_income                | Media Income Weight by Census Block Group                         | 
@@ -183,6 +181,7 @@ Test Error:  0.205338
 Accuracy(%): 0.7590082054941134 </br>
 Test Error:  0.240992
 
+#### Colorado
 Accuracy(%): 0.9706257982120051 </br>
 Test Error:  0.0293742
 
