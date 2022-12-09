@@ -4,6 +4,25 @@
 ## Team Summary 
 
 ### Features
+|idx|	Feature Name	                       |Description                                                        | 
+|---|--------------------------------------|-------------------------------------------------------------------|
+|1  |tractcode                             | Tractcode of the Feature                                          | 
+|2  |state                                 | State of the the Feature                                          |
+|3  |county                                | County of the Feature                                             | 
+|4  |isev                                  | Target                                                            | 
+|5  |weighted_median_income                | Media Income Weight by Census Block Group                         | 
+|6  |population_per_gas_station            | Population density ratio between Gas Stations and Census Tract    |
+|7  |square_miles                          | Square Miles per Census Tract                                     |
+|8  |pop_density                           | Population Density per Census Tract by Square Miles               | 
+|9  |gas_stations_per_tract                | Number of Gast Stations per Census Tract                          |  
+|10 |total_starbucks_by_tract              | Number of Starbucks per Census                                    |
+|11 |Average_Years_of_Edcuation_by_tract   | Average Years of Education of the Population of a Cesnus Tract    |
+|12 |Number_of_Schools                     | Number of Schools per Census Tracts                               |
+|13 |land_m                                | Number of Square Meters in a Census Tract                         | 
+|14 |nearest_big_city_pop                  | Population of the Nearest Metropolitan area of a Census Tract     |   
+|15 |walmart_count                         | Number of Walmarts per Census Tract                               |
+|16 |total_buildings                       | Total Number of Buildings per Census Tract                        |
+|17 |hotel_count                           | Number of Hotels per Census Tract                                 |
 
 ### Model
 
