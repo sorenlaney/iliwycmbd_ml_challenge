@@ -74,9 +74,10 @@ model_gbt = pipeline_gbt.fit(trainingData)
 
 
 ### Model performance
-|-----------|-------------------|
-|Accuracy(%)|0.7627118644067796 |
-|Test Error:|0.237288           |     
+|Model Evaluator|Value              |
+|---------------|-------------------|
+|Accuracy(%)    |76.27%             |
+|Test Error:    |23.72%             |     
 
 #### Feature Importance
 
