@@ -129,6 +129,13 @@ These are the counties that we recomend should have an EV Charging station built
 |  8|   08|08037000100|       0.0|   037|    0.9295155114890457|
 |  9|   08|08085966503|       0.0|   085|     0.927483828142378|
 
+
+
+![hotels](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/e78929c55ede730808087c3e16d1128427b1d263/EV_by_Hotel.png)
+
+![starbucks](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/e78929c55ede730808087c3e16d1128427b1d263/EV_by_Starbucks.png)
+
+
 ***
 
 ## Kavyn Abel
