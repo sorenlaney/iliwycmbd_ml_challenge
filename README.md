@@ -135,6 +135,10 @@ These are the counties that we recomend should have an EV Charging station built
 
 ![starbucks](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/e78929c55ede730808087c3e16d1128427b1d263/EV_by_Starbucks.png)
 
+This is the Confusion matrix for colorado
+
+![colorado confusion matrix](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/cccbdc3b55c24aa0ec48981955912653871744fb/Screen%20Shot%202022-12-09%20at%202.38.59%20PM.png)
+
 
 ***
 
