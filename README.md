@@ -74,21 +74,26 @@ model_gbt = pipeline_gbt.fit(trainingData)
 
 
 ### Model performance
+|-----------|-------------------|
+|Accuracy(%)|0.7627118644067796 |
+|Test Error:|0.237288           |     
 
 #### Feature Importance
 
-|idx|	name	                               |values   |    
-|---|--------------------------------------|---------|
-|12	|hotel_count	                         |0.559215 |
-|5	|total_starbucks_by_tract	             |0.185786 |
-|6	|Average_Years_of_Edcuation_by_tract	 |0.109546 |
-|1	|population_per_gas_station	           |0.041667 |
-|3	|pop_density	                         |0.025232 |
-|0	|weighted_median_income	               |0.025042 |
-|2	|square_miles	                         |0.019208 |
-|10	|walmart_count	                       |0.010639 | 
-|7	|Number_of_Schools	                   |0.009559 | 
-|8	|land_m	                               |0.007447 |
+We can see the top ten features of the ranked from top to bottom in the graph below. We can see that most important feature, the number of hotels, has a lot of weight in detiriming whether or not a tract has an EV charger in it. This most likely because many EV companies. that build these chargers at or near hotels to accomedate for those who want to take their electric vehicle arcoss the country on a multi-day trip. We can then see that the total number of starbucks is the next largest indicator on whether or not an EV charger is in that track, contributing to 18% of 
+
+|idx|	name	                               |Feature Importance   |    
+|---|--------------------------------------|---------------------|
+|12	|hotel_count	                         |0.559215             |
+|5	|total_starbucks_by_tract	             |0.185786             |
+|6	|Average_Years_of_Edcuation_by_tract	 |0.109546             |
+|1	|population_per_gas_station	           |0.041667             |
+|3	|pop_density	                         |0.025232             |
+|0	|weighted_median_income	               |0.025042             |
+|2	|square_miles	                         |0.019208             |
+|10	|walmart_count	                       |0.010639             | 
+|7	|Number_of_Schools	                   |0.009559             | 
+|8	|land_m	                               |0.007447             |
 
 
 
