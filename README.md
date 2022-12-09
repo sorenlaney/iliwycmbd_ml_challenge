@@ -162,7 +162,6 @@ Here are the tracts in Colorado I recommend:
 ## Emma Holt 
 
 ### Features
-['population_per_gas_station', 'weighted_median_income', 'car_truck_or_van_alone', 'avg_education_yrs', 'gas_station_percent_change', 'Number_of_Schools', 'count_fam_homes', 'land_m', 'people_travel_to_work', 'total_tract_population', 'median_gas_dwell_time', 'total_visit_counts', "hotel_count", "total_starbucks_by_tract", "percent_carpoolers", "gas_stations_per_tract"]
 
 |idx|	Feature Name	                       |
 |---|--------------------------------------|
