@@ -3,6 +3,22 @@
 ***
 ## Team Summary 
 
+
+### Features
+
+### Model
+
+### Model performance
+
+### Recommendations
+
+
+***
+# Individual Work
+
+## Soren Laney
+
+
 ### Features
 |idx|	Feature Name	                       |Description                                                        | 
 |---|--------------------------------------|-------------------------------------------------------------------|
@@ -25,6 +41,37 @@
 |17 |hotel_count                           | Number of Hotels per Census Tract                                 |
 
 ### Model
+
+I tried 3 different models before settling on on a gradient boosted tree. Here is some example code of those models of working on those models.
+
+```
+# Train models.
+
+dtc = DecisionTreeClassifier(labelCol = "isev_indexed",
+                            featuresCol = "features")
+
+rf = RandomForestClassifier(labelCol = "isev_indexed",
+                            featuresCol = "features",
+                            numTrees = 15)
+
+gbt = GBTClassifier(labelCol = "isev_indexed",
+                            featuresCol = "features")
+
+
+
+# Chain indexers, vectorizers, and random forest in a Pipeline
+pipeline_dtc = Pipeline(stages = [labelToIndex, vector_assembler, dtc])
+pipeline_rf = Pipeline(stages = [labelToIndex, vector_assembler, rf])
+pipeline_gbt = Pipeline(stages = [labelToIndex, vector_assembler, gbt])
+
+# Run each step in the pipeline.
+# Train model. This also runs the indexers.
+model_dtc = pipeline_dtc.fit(trainingData)
+model_rf = pipeline_rf.fit(trainingData)
+model_gbt = pipeline_gbt.fit(trainingData)
+
+```
+
 
 ### Model performance
 
@@ -60,20 +107,6 @@
 |  7|   08|08087000800|       0.0|   087|    0.9308353157372441|
 |  8|   08|08037000100|       0.0|   037|    0.9295155114890457|
 |  9|   08|08085966503|       0.0|   085|     0.927483828142378|
-
-
-***
-# Individual Work
-
-## Soren Laney
-
-### Features
-
-### Model
-
-### Model performance
-
-### Recommendations
 
 ***
 
