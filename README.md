@@ -114,6 +114,7 @@ We can see the top ten features of the ranked from top to bottom in the graph be
 
 ### Recommendations
 
+These are the counties that we recomend should have an EV Charging station built in next in colorado. 
 
 | id|state|  tractcode|prediction|county|EV Charger Probability|
 |---|-----|-----------|----------|------|----------------------|
