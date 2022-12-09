@@ -116,7 +116,13 @@ We can see the top ten features of the ranked from top to bottom in the graph be
 |  8|   08|08037000100|       0.0|   037|    0.9295155114890457|
 |  9|   08|08085966503|       0.0|   085|     0.927483828142378|
 
+The Following graph shows the probability of there being an EV Charger plotted againist the Hotel count Feature. 
+
 ![hotel_feature](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/3b6bed36fcbab9b77d619524481295805f28e762/EV_by_Hotel.png)
+
+The Following graph shows the probability of there being an EV Charger plotted againist the Starbucks count Feature. 
+
+![starbucks](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/8a37d1bf579865c257324aa3e62ea4317bb42993/EV_by_Starbucks.png)
 
 ***
 
