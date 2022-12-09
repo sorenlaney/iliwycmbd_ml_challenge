@@ -81,7 +81,7 @@ model_gbt = pipeline_gbt.fit(trainingData)
 
 #### Feature Importance
 
-We can see the top ten features of the ranked from top to bottom in the graph below. We can see that most important feature, the number of hotels, has a lot of weight in detiriming whether or not a tract has an EV charger in it. This most likely because many EV companies. that build these chargers at or near hotels to accomedate for those who want to take their electric vehicle arcoss the country on a multi-day trip. We can then see that the total number of starbucks is the next largest indicator on whether or not an EV charger is in that track, contributing to 18% of 
+We can see the top ten features of the ranked from top to bottom in the graph below. We can see that most important feature, the number of hotels, has a lot of weight in detiriming whether or not a tract has an EV charger in it. This most likely because many EV companies. that build these chargers at or near hotels to accomedate for those who want to take their electric vehicle arcoss the country on a multi-day trip. We can then see that the total number of starbucks is the next largest indicator on whether or not an EV charger is in that track, contributing to 18% of feature importance in the model.
 
 |idx|	name	                               |Feature Importance   |    
 |---|--------------------------------------|---------------------|
@@ -95,6 +95,8 @@ We can see the top ten features of the ranked from top to bottom in the graph be
 |10	|walmart_count	                       |0.010639             | 
 |7	|Number_of_Schools	                   |0.009559             | 
 |8	|land_m	                               |0.007447             |
+
+
 
 
 
