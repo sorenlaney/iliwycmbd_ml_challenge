@@ -74,10 +74,22 @@ model_gbt = pipeline_gbt.fit(trainingData)
 
 
 ### Model performance
-|Model Evaluator|Value              |
-|---------------|-------------------|
-|Accuracy(%)    |76.27%             |
-|Test Error:    |23.72%             |     
+
+#### Train Data 
+
+Accuracy: 75.87%             
+Test Error: 24.13%             
+
+#### Test Data
+
+Accuracy: 76.32%             
+Test Error: 23.68%   
+
+#### Colrado Data
+
+Accuracy: 77.88%             
+Test Error: 22.12%   
+
 
 #### Feature Importance
 
@@ -97,11 +109,12 @@ We can see the top ten features of the ranked from top to bottom in the graph be
 |8	|land_m	                               |0.007447             |
 
 
-
+![feature_importance](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/cb720fac2b88ea34be2f685dc04034b81dc0e938/Feature_Importance.png)
 
 
 ### Recommendations
 
+These are the counties that we recomend should have an EV Charging station built in next in colorado. 
 
 | id|state|  tractcode|prediction|county|EV Charger Probability|
 |---|-----|-----------|----------|------|----------------------|
@@ -115,6 +128,13 @@ We can see the top ten features of the ranked from top to bottom in the graph be
 |  7|   08|08087000800|       0.0|   087|    0.9308353157372441|
 |  8|   08|08037000100|       0.0|   037|    0.9295155114890457|
 |  9|   08|08085966503|       0.0|   085|     0.927483828142378|
+
+
+
+![hotels](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/e78929c55ede730808087c3e16d1128427b1d263/EV_by_Hotel.png)
+
+![starbucks](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/e78929c55ede730808087c3e16d1128427b1d263/EV_by_Starbucks.png)
+
 
 ***
 
@@ -150,20 +170,24 @@ Here are the tracts in Colorado I recommend:
 
 ### Features
 
-|idx|	Feature Name	                       |Description                                                        | 
-|---|--------------------------------------|-------------------------------------------------------------------|
-|1  |weighted_median_income                | Media Income Weight by Census Block Group                         | 
-|2  |population_per_gas_station            | Population density ratio between Gas Stations and Census Tract    |
-|3  |gas_stations_per_tract                | Number of Gast Stations per Census Tract                          |  
-|4  |total_starbucks_by_tract              | Number of Starbucks per Census                                    |
-|5  |Average_Years_of_Edcuation_by_tract   | Average Years of Education of the Population of a Cesnus Tract    |
-|6  |land_m                                | Number of Square Meters in a Census Tract                         |
-|7  |hotel_count                           | Number of Hotels per Census Tract                                 |
-|8  |car_truck_or_van_alone                |                                                                   |
-|9  |gas_station_percent_change            |                                                                   |
-|10 |number_of_schools                     |                                                                   |
-|11 |count_fam_homes                       |                                                                   |
-|12 |people_travel_to_work                 |                                                                   |
+|idx|	Feature Name	                       |
+|---|--------------------------------------|
+|1  |weighted_median_income                | 
+|2  |population_per_gas_station            |
+|3  |gas_stations_per_tract                |  
+|4  |total_starbucks_by_tract              |
+|5  |Average_Years_of_Edcuation_by_tract   |
+|6  |land_m                                |
+|7  |hotel_count                           |
+|8  |car_truck_or_van_alone                |
+|9  |gas_station_percent_change            |
+|10 |number_of_schools                     |
+|11 |count_fam_homes                       |
+|12 |people_travel_to_work                 |
+|13 |total_tract_population                |
+|14 |median_gas_dwell_time                 |
+|15 |total_visit_counts                    |
+|16 |percent_carpoolers                    |
 
 ### Model
 
@@ -177,9 +201,13 @@ RandomForestClassifier
 Accuracy(%): 0.7946615299944965 </br>
 Test Error:  0.205338
 
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/cm.JPG)
+
 #### Holdout states (FL, MA)
 Accuracy(%): 0.7590082054941134 </br>
 Test Error:  0.240992
+
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/cm2.JPG)
 
 #### Colorado
 Accuracy(%): 0.9706257982120051 </br>
@@ -214,11 +242,23 @@ Test Error:  0.0293742
 
 ### Features
 
+'taxi', 'people_travel_to_work','pop_density', "work_travel_perc", "gas_stations_per_tract", "median_gas_dwell_time", "count_other_tracts", "Average_Years_of_Edcuation_by_tract", "avg_gas_station_visits_on_weekday", "avg_gas_station_visits_on_weekend", "land_m","work_from_home",'total_starbucks_by_tract', 'perc_nonwhite'
+
 ### Model
+
+RandomForestClassifier
+
+50 trees 
+
+Max Depth 10
 
 ### Model performance
 
+Accuracy(%): 0.7476847807094181
+
 ### Recommendations
+
+I wasn't happy with my model but we cannot dwell on the past, nor can we control the future. It is but today alone for our dominion, and ill be darned if I dont make the most of it!
 
 ***
 
