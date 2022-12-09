@@ -164,10 +164,13 @@ Here are the tracts in Colorado I recommend:
 |10 |number_of_schools                     |                                                                   |
 |11 |count_fam_homes                       |                                                                   |
 |12 |people_travel_to_work                 |                                                                   |
+...
 
 ### Model
 
 RandomForestClassifier
+
+25% test size
 
 ### Model performance
 
@@ -192,6 +195,13 @@ Test Error:  0.0293742
 
 ![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/1stfeature.JPG)
 ![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/2ndfeautre.JPG)
+
+```
+import plotly.express as px
+
+fig = px.scatter(preds_p, x="hotel_count", y="EV Charger Probability")
+fig.show()
+```
 
 ### Recommendations
 
