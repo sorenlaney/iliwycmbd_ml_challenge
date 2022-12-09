@@ -162,21 +162,26 @@ Here are the tracts in Colorado I recommend:
 ## Emma Holt 
 
 ### Features
+['population_per_gas_station', 'weighted_median_income', 'car_truck_or_van_alone', 'avg_education_yrs', 'gas_station_percent_change', 'Number_of_Schools', 'count_fam_homes', 'land_m', 'people_travel_to_work', 'total_tract_population', 'median_gas_dwell_time', 'total_visit_counts', "hotel_count", "total_starbucks_by_tract", "percent_carpoolers", "gas_stations_per_tract"]
 
-|idx|	Feature Name	                       |Description                                                        | 
-|---|--------------------------------------|-------------------------------------------------------------------|
-|1  |weighted_median_income                | Media Income Weight by Census Block Group                         | 
-|2  |population_per_gas_station            | Population density ratio between Gas Stations and Census Tract    |
-|3  |gas_stations_per_tract                | Number of Gast Stations per Census Tract                          |  
-|4  |total_starbucks_by_tract              | Number of Starbucks per Census                                    |
-|5  |Average_Years_of_Edcuation_by_tract   | Average Years of Education of the Population of a Cesnus Tract    |
-|6  |land_m                                | Number of Square Meters in a Census Tract                         |
-|7  |hotel_count                           | Number of Hotels per Census Tract                                 |
-|8  |car_truck_or_van_alone                |                                                                   |
-|9  |gas_station_percent_change            |                                                                   |
-|10 |number_of_schools                     |                                                                   |
-|11 |count_fam_homes                       |                                                                   |
-|12 |people_travel_to_work                 |                                                                   |
+|idx|	Feature Name	                       |
+|---|--------------------------------------|
+|1  |weighted_median_income                | 
+|2  |population_per_gas_station            |
+|3  |gas_stations_per_tract                |  
+|4  |total_starbucks_by_tract              |
+|5  |Average_Years_of_Edcuation_by_tract   |
+|6  |land_m                                |
+|7  |hotel_count                           |
+|8  |car_truck_or_van_alone                |
+|9  |gas_station_percent_change            |
+|10 |number_of_schools                     |
+|11 |count_fam_homes                       |
+|12 |people_travel_to_work                 |
+|13 |total_tract_population                |
+|14 |median_gas_dwell_time                 |
+|15 |total_visit_counts                    |
+|16 |percent_carpoolers                    |
 
 ### Model
 
