@@ -150,11 +150,63 @@ Here are the tracts in Colorado I recommend:
 
 ### Features
 
+|idx|	Feature Name	                       |Description                                                        | 
+|---|--------------------------------------|-------------------------------------------------------------------|
+|1  |weighted_median_income                | Media Income Weight by Census Block Group                         | 
+|2  |population_per_gas_station            | Population density ratio between Gas Stations and Census Tract    |
+|3  |gas_stations_per_tract                | Number of Gast Stations per Census Tract                          |  
+|4  |total_starbucks_by_tract              | Number of Starbucks per Census                                    |
+|5  |Average_Years_of_Edcuation_by_tract   | Average Years of Education of the Population of a Cesnus Tract    |
+|6  |land_m                                | Number of Square Meters in a Census Tract                         |
+|7  |hotel_count                           | Number of Hotels per Census Tract                                 |
+|8  |car_truck_or_van_alone                |                                                                   |
+|9  |gas_station_percent_change            |                                                                   |
+|10 |number_of_schools                     |                                                                   |
+|11 |count_fam_homes                       |                                                                   |
+|12 |people_travel_to_work                 |                                                                   |
+
 ### Model
+
+RandomForestClassifier
 
 ### Model performance
 
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/roc.JPG)
+
+#### Test Data
+Accuracy(%): 0.7946615299944965 </br>
+Test Error:  0.205338
+
+#### Holdout states (FL, MA)
+Accuracy(%): 0.7590082054941134 </br>
+Test Error:  0.240992
+
+#### Colorado
+Accuracy(%): 0.9706257982120051 </br>
+Test Error:  0.0293742
+
+
+### Feature Importance
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/fi.JPG)
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/fi2.JPG)
+
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/1stfeature.JPG)
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/2ndfeautre.JPG)
+
 ### Recommendations
+
+|prediction|tractcode  |prob_v                                   |
+|----------|-----------|-----------------------------------------|
+|1.0       |08041007000|[0.3059793866696401, 0.6940206133303599] |
+|1.0       |08059012022|[0.3059793866696401, 0.6940206133303599] |
+|1.0       |08001060200|[0.3198509873686621, 0.6801490126313379] |
+|1.0       |08005080400|[0.3198509873686621, 0.6801490126313379] |
+|1.0       |08041003308|[0.3198509873686621, 0.6801490126313379] |
+|1.0       |08035014123|[0.341061862456565, 0.658938137543435]   |
+|1.0       |08069001601|[0.3420073138748238, 0.6579926861251763] |
+|1.0       |08013013212|[0.35493346315558705, 0.645066536844413] |
+|1.0       |08041008000|[0.37263642192124763, 0.6273635780787524]|
+|1.0       |08041002900|[0.37545206836345607, 0.6245479316365439]|
 
 ***
 
