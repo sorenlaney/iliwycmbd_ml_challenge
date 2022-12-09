@@ -187,9 +187,11 @@ Test Error:  0.240992
 ![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/fi.JPG)
 ![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/fi2.JPG)
 
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/1stfeature.JPG)
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/2ndfeautre.JPG)
+
 ### Recommendations
 
-|----------|-----------|-----------------------------------------|
 |prediction|tractcode  |prob_v                                   |
 |----------|-----------|-----------------------------------------|
 |1.0       |08041007000|[0.3059793866696401, 0.6940206133303599] |
