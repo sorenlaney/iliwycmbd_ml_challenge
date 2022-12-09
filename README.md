@@ -194,6 +194,8 @@ RandomForestClassifier
 Accuracy(%): 0.7946615299944965 </br>
 Test Error:  0.205338
 
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/cm.JPG)
+
 #### Holdout states (FL, MA)
 Accuracy(%): 0.7590082054941134 </br>
 Test Error:  0.240992
