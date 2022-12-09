@@ -200,6 +200,8 @@ Test Error:  0.205338
 Accuracy(%): 0.7590082054941134 </br>
 Test Error:  0.240992
 
+![](https://github.com/sorenlaney/iliwycmbd_ml_challenge/blob/main/images/cm2.JPG)
+
 #### Colorado
 Accuracy(%): 0.9706257982120051 </br>
 Test Error:  0.0293742
