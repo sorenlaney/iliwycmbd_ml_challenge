@@ -227,11 +227,23 @@ Test Error:  0.0293742
 
 ### Features
 
+'taxi', 'people_travel_to_work','pop_density', "work_travel_perc", "gas_stations_per_tract", "median_gas_dwell_time", "count_other_tracts", "Average_Years_of_Edcuation_by_tract", "avg_gas_station_visits_on_weekday", "avg_gas_station_visits_on_weekend", "land_m","work_from_home",'total_starbucks_by_tract', 'perc_nonwhite'
+
 ### Model
+
+RandomForestClassifier
+
+50 trees 
+
+Max Depth 10
 
 ### Model performance
 
+Accuracy(%): 0.7476847807094181
+
 ### Recommendations
+
+I wasn't happy with my model but we cannot dwell on the past, nor can we control the future. It is but today alone for our dominion, and ill be darned if I dont make the most of it!
 
 ***
 
